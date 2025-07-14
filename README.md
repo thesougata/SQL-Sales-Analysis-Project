@@ -1,6 +1,6 @@
 # 📊 SQL Sales Analysis Project
 
-A beginner-level SQL project to analyze sales data using structured queries and relational database design.
+A SQL project to analyze sales data using structured queries and relational database design.
 
 This project helped me strengthen my understanding of SQL through real-world business questions, data modeling, and query writing. It is designed for learners like me who want to practice working with sales data and uncover business insights using SQL.
 
