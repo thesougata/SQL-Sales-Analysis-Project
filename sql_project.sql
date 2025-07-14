@@ -1,3 +1,25 @@
+-- -----------------------------------------------------
+-- Project: SQL Sales Analysis Project
+-- Author: Saugata Das
+-- Description: A beginner-friendly SQL project that analyzes
+--              sample sales data by creating three tables
+--              and answering 8 real-world business questions.
+-- 
+-- Tables Used:
+--   - orders
+--   - products
+--   - order_details
+--
+-- Steps Included:
+--   1. Database and table creation
+--   2. Data insertion using INSERT INTO queries
+--   3. Business query writing to analyze sales, profits, regions, and more
+--
+-- Tools Used:
+--   - MySQL Workbench
+--   - GitHub (for hosting and documentation)
+-- -----------------------------------------------------
+
 create database project1;
 use project1;
 create table orders (
@@ -95,7 +117,6 @@ join order_details od on p.product_id=od.product_id
 group by p.product_id,p.category
 order by total_qty desc;     
 
--- End of Project: Sales Analysis
+-- End of Project: SQL Sales Analysis Project
 -- Project Completed by Sougata Das
--- Tools Used: MySQL Workbench, SQL (Queries written manually)
 -- Data Source: sample_orders_dataset.csv (structured & inserted via text conversion)
